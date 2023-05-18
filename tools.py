@@ -91,8 +91,8 @@ while True:
             os.system("cls" if os.name == "nt" else "clear")
             break
     elif ss == 5:
-         print()
-         os.system("cls" if os.name == "nt" else "clear")
+        os.system("cls" if os.name == "nt" else "clear")
+        break
     else:
         os.system("cls" if os.name == "nt" else "clear")
         print("opcion invalida.")
