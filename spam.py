@@ -15,6 +15,10 @@ if ss == 1:
     dd = input("ingresa lo que quieres spamear: ")
     jj = int(input("¿cuantas veces quieres repetir?: "))
     hh = int(input("y cuantas veces quieres que se demore en enviar (recomendado 1)"))
+    os.system("cls" if os.name == "nt" else "clear")
+    print("comenzamos en 10...")
+    time.sleep(10)
+    os.system("cls" if os.name == "nt" else "clear")
     for gg in range(jj):
         gui.write("dd")
         time.sleep(hh)
