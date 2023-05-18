@@ -24,5 +24,4 @@ if ss == 1:
         time.sleep(hh)
         gui.press("enter")
 elif ss == 2:
-    break
-    
+    print()
