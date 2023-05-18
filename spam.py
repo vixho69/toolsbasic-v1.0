@@ -3,6 +3,7 @@ import string
 import pyautogui as gui
 import time
 import os
+os.system("cls" if os.name == "nt" else "clear")
 print("este script es para spamear pero debes estar en una app ya que se encarga de escribir lo que quieres")
 time.sleep(5)
 os.system("cls" if os.name == "nt" else "clear")
