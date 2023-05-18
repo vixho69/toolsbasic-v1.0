@@ -1,6 +1,7 @@
 import random
 import os
 while True:
+    print("idea realizada por ale")
     dd = int(input("¿cuantas veces quieres mesclar el apodo?: "))
     gg = int(input("¿cuantas veces quieres repetir?: "))
     os.system("cls" if os.name == "nt" else "clear")
