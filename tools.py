@@ -11,6 +11,7 @@ while True:
     print("[2] generador de codigos fakes")
     print("[3] pronto.")
     print("[4] pronto.")
+    print("[5] salir.
     ss = int(input("ingresa: "))
     if ss == 1:
         os.system("cls" if os.name == "nt" else "clear")
@@ -89,6 +90,9 @@ while True:
             time.sleep(3)
             os.system("cls" if os.name == "nt" else "clear")
             break
+     elif ss == 5:
+          print()
+          os.system("cls" if os.name == "nt" else "clear")
     else:
         os.system("cls" if os.name == "nt" else "clear")
         print("opcion invalida.")
