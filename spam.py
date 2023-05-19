@@ -21,5 +21,6 @@ if ss == 1:
         gui.write(dd)
         time.sleep(hh)
         gui.press("enter")
+    print("el script a acabado!")
 elif ss == 2:
     print()
