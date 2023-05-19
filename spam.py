@@ -18,7 +18,7 @@ if ss == 1:
     time.sleep(10)
     os.system("cls" if os.name == "nt" else "clear")
     for gg in range(jj):
-        gui.write("dd")
+        gui.write(dd)
         time.sleep(hh)
         gui.press("enter")
 elif ss == 2:
