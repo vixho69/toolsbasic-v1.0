@@ -1,5 +1,3 @@
-import random
-import string
 import pyautogui as gui
 import time
 import os
