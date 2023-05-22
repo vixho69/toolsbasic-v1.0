@@ -4,35 +4,35 @@ import string
 import os
 os.system("cls" if os.name == "nt" else "clear")
 while True:
-    print("tools v2")
+    print("Tools v1.0")
     print("")
-    print("ingresa (s/n) para volver en cada opcion!")
-    print("[1] generador de contraseñas")
-    print("[2] generador de codigos fakes")
-    print("[3] pronto.")
-    print("[4] pronto.")
-    print("[5] salir.")
-    ss = int(input("ingresa: "))
+    print("Ingresa (s/n) para volver en cada opcion!")
+    print("[1] Generador de contraseñas")
+    print("[2] Generador de codigos fakes")
+    print("[3] Generador de numeros random")
+    print("[4] Pronto.")
+    print("[5] Salir.")
+    ss = int(input("Ingresa: "))
     if ss == 1:
         os.system("cls" if os.name == "nt" else "clear")
         while True:
             ss = string.ascii_letters + string.punctuation + string.digits
-            dd = int(input("ingresa una cantidad (maxim 94): "))
+            dd = int(input("Ingresa una cantidad (maxim 94): "))
             kk = "".join(random.sample(ss,dd))
             print(kk)
-            jj = input("¿volver a generar?: ").lower()
+            jj = input("¿Volver a generar?: ").lower()
             os.system("cls" if os.name == "nt" else "clear")
             if jj != "s":
                 break
     elif ss == 2:
         os.system("cls" if os.name == "nt" else "clear")
-        print("[1] codigos de roblox fakes")
-        print("[2] codigos de activador de codigos de win10")
-        ps = int(input("ingresa una opcion: "))
+        print("[1] Codigos de roblox fakes")
+        print("[2] Codigos de activador de codigos de win10")
+        ps = int(input("Ingresa una opcion: "))
         if ps == 1:
             os.system("cls" if os.name == "nt" else "clear")
             while True:
-                kk = int(input("¿cuantos quieres generar?: "))
+                kk = int(input("¿Cuantos quieres generar?: "))
                 for gg in range(kk):
                     ss = string.digits
                     os1 = 3
@@ -47,16 +47,16 @@ while True:
                     op4 = "".join(random.sample(ss,os4))
                     op5 = "".join(random.sample(ss,os5))
                     print(f"{op1}{sp}{op2}{sp}{op3}{sp}{op4}{sp}{op5}")
-                hh = input("¿quieres volver a generar?: ").lower()
+                hh = input("¿Quieres volver a generar?: ").lower()
                 os.system("cls" if os.name == "nt" else "clear")
                 if hh != "s":
                     break
         elif ss == 2:
             os.system("cls" if os.name == "nt" else "clear")
             while True:
-                hd = int(input("¿cuantos codigos quieres generar?: "))
+                hd = int(input("¿Cuantos codigos quieres generar?: "))
                 for t in range(hd):
-                    rt = string.digits + string.ascii_uppercase
+                    rt = "23456789" + "QWRTYPDFGHJKXCVBNM"
                     pp = 5
                     kl = "-"
                     kd = "".join(random.sample(rt,pp))
@@ -65,33 +65,50 @@ while True:
                     k3 = "".join(random.sample(rt,pp))
                     k4 = "".join(random.sample(rt,pp))
                     print(f"{kd}{kl}{k1}{kl}{k2}{kl}{k3}{kl}{k4}")
-                jt = input("quieres volver a generar?: ").lower()
+                jt = input("Quieres volver a generar?: ").lower()
                 os.system("cls" if os.name == "nt" else "clear")
                 if jt != "s":
-                    break
+                    break  
     elif ss == 3:
-        os.system("cls" if os.name == "nt" else "clear")
         while True:
-            print("pronto.")
-            time.sleep(1)
             os.system("cls" if os.name == "nt" else "clear")
-            print("esperando.")
-            time.sleep(3)
-            os.system("cls" if os.name == "nt" else "clear")
-            break
-
+            print("Generador de numeros fakes")
+            print("")
+            print("[1] Numeros chilenos.")
+            print("[2] pronto.")
+            print("")
+            fd = int(input("ingresa una opcion: "))
+            if fd == 1:
+                po = int(input("Cuantos numeros deseas generar?: "))
+                for h in range(po):
+                    y = string.digits
+                    j = 4
+                    ks = "+56 9 "
+                    kp = " "
+                    k = "".join(random.sample(y,j))
+                    k1 = "".join(random.sample(y,j))
+                    print(f"{ks}{k}{kp}{k1}")
+                jq = input("Quieres volver a generar?: ").lower()
+                os.system("cls" if os.name == "nt" else "clear")
+                if jq != "s":
+                    break
+            elif fd == 2:
+                os.system("cls" if os.name == "nt" else "clear")
+                print("pronto.")
+                time.sleep(2)
+                os.system("cls" if os.name == "nt" else "clear")
+                break
     elif ss == 4:
         os.system("cls" if os.name == "nt" else "clear")
-        while True:
-            print("pronto.")
-            time.sleep(1)
-            os.system("cls" if os.name == "nt" else "clear")
-            print("esperando.")
-            time.sleep(3)
-            os.system("cls" if os.name == "nt" else "clear")
-            break
+        print("pronto.")
+        time.sleep(1)
+        os.system("cls" if os.name == "nt" else "clear")
+        print("esperando.")
+        time.sleep(2)
+        os.system("cls" if os.name == "nt" else "clear")
     elif ss == 5:
         os.system("cls" if os.name == "nt" else "clear")
+        print("Adios!")
         break
     else:
         os.system("cls" if os.name == "nt" else "clear")
